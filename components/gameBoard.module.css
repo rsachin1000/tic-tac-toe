@@ -1,0 +1,53 @@
+.square {
+  background-color: black;
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1px;
+}
+
+.squareContent {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.row {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gameBoard {
+  display: inline-flex;
+  border-radius: 5px;
+  background-color: lightgray;
+  flex-direction: column;
+  height: 250px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamePlay {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.nextstep {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nextstepText {
+  color: pink;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

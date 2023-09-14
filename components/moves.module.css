@@ -1,0 +1,22 @@
+.goToMove {
+  display: flex;
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgb(236, 188, 234);
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.goToMoveText {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.allMoves {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 30px;
+}
