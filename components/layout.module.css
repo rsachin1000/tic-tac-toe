@@ -8,6 +8,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: pink;
+  justify-content: center;
+  color: rgb(57, 120, 66);
+  border: 1px solid rgb(57, 120, 66);
+  border-radius: 20px;
+  /* width: 500px; */
   font-family: Georgia, "Times New Roman", Times, serif;
 }
