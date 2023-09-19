@@ -8,6 +8,11 @@
   margin: 1px;
 }
 
+.goToMove:hover {
+  background-color: beige;
+  cursor: pointer;
+}
+
 .goToMoveText {
   font-weight: bold;
   color: rgb(57, 120, 66);
